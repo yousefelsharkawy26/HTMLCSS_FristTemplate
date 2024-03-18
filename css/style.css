@@ -204,6 +204,10 @@ header .links ul li:not(:last-child) a {
 }
 
 @media (max-width: 767px) {
+    .landing .intro-text {
+        width: 100%;
+    }
+
     .landing .intro-text p {
         font-size: 17px;
         padding: 5px;
