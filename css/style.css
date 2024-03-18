@@ -177,7 +177,7 @@ header .links ul li:not(:last-child) a {
 
 /* Start Landing */
 .landing {
-    background-image: url(../Images/mountain.jpg);
+    background-image: url(../images/mountain.jpg);
     background-size: cover;
     height: calc(100vh - 64px);
     position: relative;
@@ -202,6 +202,14 @@ header .links ul li:not(:last-child) a {
     font-size: 19px;
     line-height: 1.8;
 }
+
+@media (max-width: 767px) {
+    .landing .intro-text p {
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+
 /* End Landing */
 
 /* Start Features */
